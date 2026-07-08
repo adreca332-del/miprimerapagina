@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Página Web</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header{
+            background: #0077cc;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav{
+            background: #005fa3;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        section{
+            padding: 20px;
+            text-align: center;
+        }
+
+        .boton{
+            background: #0077cc;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .boton:hover{
+            background: #005fa3;
+        }
+
+        footer{
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ya me harte de esto</h1>
+    <p>Creada con HTML y CSS</p>
+</header>
+
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#">Acerca de</a>
+    <a href="#">Servicios</a>
+    <a href="#">Contacto</a>
+</nav>
+
+<section>
+    <h2>Hola Mundo</h2>
+    <p>Esta es una página web sencilla hecha con HTML.</p>
+
+    <button class="boton" onclick="mensaje()">
+        Haz clic aquí
+    </button>
+</section>
+
+<footer>
+    <p>© 2026 Mi Página Web</p>
+</footer>
+
+<script>
+function mensaje(){
+    alert("YA VAMONOS!");
+}
+</script>
+
+</body>
+</html>
